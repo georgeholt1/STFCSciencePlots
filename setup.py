@@ -46,11 +46,11 @@ with open(os.path.join(root, 'README.md'), 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='SciencePlots',
-    version='1.0.9',
-    author="John Garrett",
-    author_email="garrettj403@gmail.com",
-    description="Format Matplotlib for scientific plotting",
+    name='STFCSciencePlots',
+    version='1.0.0',
+    author="John Garrett & George Holt",
+    author_email="george.holt@stfc.ac.uk",
+    description="Format Matplotlib for scientific plotting using STFC style",
     long_description=long_description,
     long_description_content_type='text/markdown',
     license="MIT",
@@ -62,7 +62,7 @@ setup(
         "matplotlib-styles",
         "python"
     ],
-    url="https://github.com/garrettj403/SciencePlots/",
+    url="https://github.com/georgeholt1/STFCSciencePlots",
     install_requires=['matplotlib', ],
     cmdclass={'install': PostInstallMoveFile, },
 )
