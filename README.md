@@ -24,8 +24,9 @@ The pip installation will automatically move all of the Matplotlib style files `
 
 **Notes:** 
 - SciencePlots requires Latex ([see Latex installation instructions](https://github.com/garrettj403/SciencePlots/wiki/FAQ#installing-latex)). 
+- If running on Linux, you may need to explicitly install the Arial font. See the [mscorefonts](https://anaconda.org/conda-forge/mscorefonts) package.
 
-Please see the [FAQ](https://github.com/garrettj403/SciencePlots/wiki/FAQ) for more information and troubleshooting.
+The [SciencePlots FAQ](https://github.com/garrettj403/SciencePlots/wiki/FAQ) may be useful for more information and troubleshooting.
 
 Using the Styles
 ----------------
