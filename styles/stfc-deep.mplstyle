@@ -1,2 +1,3 @@
 # UKRI deep colour cycle
+# Must be loaded after the based stfc style
 axes.prop_cycle : cycler('color', ['003087', 'D57800', '653165', '44883E', 'A6192E', '279989', '84329B', 'ED8B00', 'C63663', '00685E', '0097A9', 'BE3A34'])
