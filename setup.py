@@ -62,7 +62,7 @@ setup(
         "matplotlib-styles",
         "python"
     ],
-    packages=[],
+    packages=['stfcscienceplots'],
     url="https://github.com/georgeholt1/STFCSciencePlots",
     install_requires=['matplotlib', ],
     cmdclass={'install': PostInstallMoveFile, },
