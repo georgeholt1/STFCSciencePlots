@@ -3,8 +3,9 @@
 # Set color cycle
 axes.prop_cycle : cycler('color', ['307FE2', 'FF9E1B', 'B15EB5', '6CC24A', 'E04E39', '47D7AC', 'FB48C4', 'F6BE00', 'FF585D', '00B388', 'E87722', '00C1D5'])
 
-# Set default figure size
+# Set default figure size and resolution
 figure.figsize : 3.5, 2.625
+figure.dpi : 300
 
 # Set x axis
 xtick.direction : in
@@ -29,8 +30,18 @@ axes.linewidth : 0.5
 grid.linewidth : 0.5
 lines.linewidth : 1.
 
-# Remove legend frame
-legend.frameon : False
+# Set grids
+axes.grid : True
+axes.axisbelow : True
+grid.linestyle : --
+grid.color : k
+grid.alpha : 0.5
+
+# Legend parameters
+legend.framealpha : 0.8
+legend.facecolor : w
+legend.edgecolor : k
+legend.fancybox : False
 
 # Always save as 'tight'
 savefig.bbox : tight
@@ -44,3 +55,6 @@ mathtext.fontset : dejavuserif
 # Use LaTeX for math formatting
 text.usetex : True
 text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
+
+# Force white background on save
+savefig.facecolor : w
