@@ -10,8 +10,8 @@ plt.style.use('stfc')
 def sigmoid(x, w):
     return 1 / (1 + np.e ** (-w * x))
 
-x = np.linspace(-5, 5, 100)
-vals = (0.3, 0.5, 0.9, 1.5, 3)
+x = np.linspace(-5, 5, 1000)
+vals = (0.3, 0.5, 0.9, 1.5, 3, 50)
 
 # Plotting
 fig, ax = plt.subplots()

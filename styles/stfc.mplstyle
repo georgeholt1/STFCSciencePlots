@@ -42,6 +42,8 @@ legend.framealpha : 0.8
 legend.facecolor : w
 legend.edgecolor : k
 legend.fancybox : False
+legend.labelspacing : 0.4
+legend.fontsize : small
 
 # Always save as 'tight'
 savefig.bbox : tight
