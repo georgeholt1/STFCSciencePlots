@@ -29,6 +29,7 @@ def plot_fn(x, vals):
 
 with plt.style.context(['stfc']):
     fig = plot_fn(x, vals)
+    fig.savefig(os.path.join(outdir, 'plot.png'))
     fig.suptitle('Style: $\mathtt{stfc}$')
     fig.savefig(os.path.join(outdir, 'stfc.png'))
 

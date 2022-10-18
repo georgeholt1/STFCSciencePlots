@@ -3,6 +3,10 @@ STFC Science Plots
 
 *Matplotlib styles for scientific figures using STFC style*
 
+<p align="center">
+<img src="https://github.com/georgeholt1/STFCSciencePlots/blob/master/examples/img/plot.png" width="500">
+</p>
+
 This repo has Matplotlib styles to format your figures for scientific papers, presentations and theses following the Science and Technology Facilities Council (STFC) style. It is a fork of garrettj403's [SciencePlots](https://github.com/garrettj403/SciencePlots).
 
 Getting Started
@@ -77,4 +81,8 @@ See `examples/plot_examples.py`.
 
 <p align="center">
 <img src="https://github.com/georgeholt1/STFCSciencePlots/blob/master/examples/img/stfc.png" width="500">
+</p>
+
+<p align="center">
+<img src="https://github.com/georgeholt1/STFCSciencePlots/blob/master/examples/img/stfc-deep.png" width="500">
 </p>
