@@ -76,5 +76,5 @@ Examples
 See `examples/plot_examples.py`.
 
 <p align="center">
-<img src="https://github.com/georgeholt1/STFCSciencePlots/blob/master/examples/img/plot.png" width="500">
+<img src="https://github.com/georgeholt1/STFCSciencePlots/blob/master/examples/img/stfc.png" width="500">
 </p>
