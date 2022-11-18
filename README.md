@@ -20,7 +20,7 @@ pip install git+https://github.com/georgeholt1/STFCSciencePlots
 
 # to clone and install from a local copy
 git clone https://github.com/georgeholt1/STFCSciencePlots
-cd SciencePlots
+cd STFCSciencePlots
 pip install -e .
 ```
 
